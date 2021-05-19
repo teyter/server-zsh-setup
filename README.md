@@ -1,1 +1,1 @@
-# Bare bones zshrc and vi-mode
+# Bare-bones zshrc and vi-mode
