@@ -22,8 +22,8 @@ function _vi-mode-set-cursor-shape-for-keymap() {
   # https://vt100.net/docs/vt510-rm/DECSCUSR
   local _shape=0
   case "${1:-${VI_KEYMAP:-main}}" in
-    main)    _shape=0 ;; # vi insert: line
-    viins)   _shape=0 ;; # vi insert: line
+    main)    _shape=4 ;; # vi insert: line
+    viins)   _shape=4 ;; # vi insert: line
     isearch) _shape=6 ;; # inc search: line
     command) _shape=6 ;; # read a command name
     vicmd)   _shape=2 ;; # vi cmd: block
