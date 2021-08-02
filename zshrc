@@ -8,3 +8,6 @@ compinit
 
 source ~/.zsh/vi-mode/vi-mode.plugin.zsh
 alias ls='ls --color=auto'
+
+# up arrow ignores repeats
+setopt HIST_IGNORE_DUPS
