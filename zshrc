@@ -17,3 +17,7 @@ alias ls='ls --color=auto'
 
 # up arrow ignores repeats
 setopt HIST_IGNORE_DUPS
+
+# alias
+alias zshrc="vim ~/.zshrc"
+alias srcz="source ~/.zshrc"
